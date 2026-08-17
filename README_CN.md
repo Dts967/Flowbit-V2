@@ -1,4 +1,4 @@
-# Flowbit v2 —— 种子式基础分发与边缘计算架构
+7# Flowbit v2 —— 种子式基础分发与边缘计算架构
 
 > 前身为 BCST-DT（基于目录的压缩切片隧道差分传输）。
 > v2 在保留"服务端不依赖用户 P2P"核心原则的前提下，
@@ -301,7 +301,7 @@ AI 只提供建议，没有超级用户权限，不能主动清理文件。
 
 ## 许可
 
-GNU Affero General Public License v3.0 (AGPL-3.0)。详见 LICENSE 文件。
+Apache License v2.0。详见 LICENSE 文件。
 
 ---
 
