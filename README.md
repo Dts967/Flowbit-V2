@@ -302,7 +302,7 @@ The main server only handles matchmaking and global state. Match data travels di
 
 ## License
 
-GNU Affero General Public License v3.0 (AGPL-3.0). See LICENSE file for details.
+Apache License v2.0 . See LICENSE file for details.
 
 ---
 
