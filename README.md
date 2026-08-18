@@ -257,15 +257,12 @@ All communication between nodes and between nodes and clients MUST go through HT
 | 3× ARM tunnel nodes | ~0.15 kWh each | ~¥8 each |
 | Total | | **~¥46/month** |
 
-When no one is playing and tunnel nodes auto-shut down → monthly cost drops further to ~¥15.
-
 ---
 
 ## Cost Control
 
 | Strategy | Method |
 |----------|--------|
-| Auto start/stop tunnel nodes | Shut down below threshold, spin up above threshold (cloud pay-as-you-go instances) |
 | Cold storage archival | Files not accessed for 30 days moved to object storage infrequent-access tier (a few RMB/TB/month) |
 | LAN client-to-client transfer | Client mDNS discovers neighbors; already-downloaded resources fetched directly from LAN peers |
 | Rollback window | del-patch retained for 7 days; confirmed no issues before final deletion, avoids re-distribution after accidental deletion |
